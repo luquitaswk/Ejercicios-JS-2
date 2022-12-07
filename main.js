@@ -54,4 +54,21 @@
 
 // ---------------------------------------------------------------------------------
 
+// - DÍAS DE LA SEMANA:
 
+// 1. Crear un array con todos los días de la semana
+const diasDeLaSemana = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"];
+
+// 2. Recorrerlos y mostrar cuando sea domingo o sábado un mensaje en consola.
+const dias = () => {
+
+  for(dia of diasDeLaSemana)
+    if(dia === "Sabado") {
+      console.log("Hoy es Sábado")
+      continue
+  }
+  if(dia === "Domingo") {
+    console.log("Hoy es Domingo")
+  }
+}
+dias();
